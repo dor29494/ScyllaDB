@@ -11,7 +11,7 @@ function MyCart() {
       {cart.length > 0 &&
         cart.map((item, key) => <CartItem item={item} key={key} />)}
         {totalSum > 0 &&
-        <h4>{`Total Price: ${totalSum}`}</h4>
+        <h4>{`Total Price: ${totalSum}$`}</h4>
         }
     </div>
   );
