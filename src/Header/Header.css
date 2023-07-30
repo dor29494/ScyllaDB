@@ -1,0 +1,6 @@
+.scyllaDB_header{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+}

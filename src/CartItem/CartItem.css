@@ -1,3 +1,7 @@
 .cartItem_item{
     border: 1px solid black;
 }
+.cartItem_error{
+    color: red;
+    font-size: 14px;
+}

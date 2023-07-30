@@ -42,6 +42,7 @@ function BooksList({setStorageCart}) {
             },
             id: book.id,
             quantity: 1,
+            price: book.price
           },
         ]);
       } else {
