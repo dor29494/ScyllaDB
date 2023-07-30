@@ -1,0 +1,29 @@
+.bookCard_item{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.bookCard_image{
+    max-height: 180px;
+    padding: 0 1rem 1rem 0;
+    display: flex;
+}
+.bookCard_title{
+    font-size: 18px;
+    max-width: 60%;
+}
+.bookCard_subtitle{
+    font-size: 14px;
+    max-width: 60%;
+}
+.bookCard_text{
+    min-width: 100%;
+}
+.bookCard_cardBottom{
+    display: flex;
+    flex-direction: column;
+}
+.bookCard_button{
+    width: 30%;
+    margin: auto;
+}
